@@ -72,7 +72,7 @@ URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'shrinkearn.com')
 URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'b9b472e4634a61b4b313b7ed041d76fd348ba2d3')
 
      # Auto Delete For Group Message (Self Delete) #
-SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 300))
+SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 60))
 SELF_DELETE = environ.get('SELF_DELETE', True)
 if SELF_DELETE == "True":
     SELF_DELETE = True
@@ -82,7 +82,7 @@ DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
 DOWNLOAD_TEXT_URL = "https://t.me/How_to_Download_From_Search_Bot/2"
 
    # Custom Caption Under Button #
-CAPTION_BUTTON = "Subscribe"
-CAPTION_BUTTON_URL = "https://youtube.com/c/GreyMattersBot"
+CAPTION_BUTTON = "‼️ 𝖴𝖯𝖣𝖠𝖳𝖤𝖲 𝖢𝖧𝖠𝖭𝖭𝖤𝖫 ‼️"
+CAPTION_BUTTON_URL = "https://t.me/MCMovieBot"
 
    # Auto Delete For Bot Sending Files #
