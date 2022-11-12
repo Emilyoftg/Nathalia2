@@ -71,7 +71,7 @@ async def aboutme(client, message):
             photo=random.choice(PICS),
             caption=script.ABOUT_TXT.format(message.from_user.mention),
             reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML'
+            parse_mode=enums.ParseMode.HTML
         )
 
 @Client.on_message(filters.command(["info"]))
