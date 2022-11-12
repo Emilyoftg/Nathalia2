@@ -146,7 +146,7 @@ async def help(client, message):
             photo=random.choice(PICS),
             caption=script.HELP_TXT.format(message.from_user.mention),
             reply_markup=reply_markup,
-            parse_mode='html'
+            parse_mode=enums.ParseMode.HTML
         )
 
 
